@@ -21,11 +21,11 @@ It includes basic HTTP authentication support.
 <a name="installation"></a>
 ## Installation
 
-Package is available on [Packagist](https://packagist.org/packages/sizeg/yii2-jwt),
+Package is available on [Packagist](https://packagist.org/packages/dimanzver/yii2-jwt),
 you can install it using [Composer](http://getcomposer.org).
 
 ```shell
-composer require sizeg/yii2-jwt
+composer require dimanzver/yii2-jwt
 ```
 
 <a name="dependencies"></a>
@@ -277,7 +277,7 @@ var_dump($token->verify($signer, $publicKey)); // true when the public key was g
 2. Install component
 
     ```shell
-    composer require sizeg/yii2-jwt
+    composer require dimanzver/yii2-jwt
     ```
 
 3. Add to config/web.php into `components` section
